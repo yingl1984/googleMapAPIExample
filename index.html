@@ -19,14 +19,28 @@
 </head>
 <body>
     <div class="mainContainer">
+        
         <div class="container">
-            <h1>Ask for fun <i class="fab fa-accessible-icon"></i></h1>
+           
 
-            <form id="js-form">
-                <label for="js-search-item">Please input the item you're interested in: </label>
-                <input type="text" name="search-item" id="js-search-item" required>
-                 <input type="submit" value="Go!">
-            </form>
+            <div style="display: flex;">
+            
+                <form id="js-form">
+                    <h1>Ask for fun <i class="fab fa-accessible-icon"></i></h1>
+                    <label for="js-search-item">Please input the item you're interested in: </label>
+                    <input type="text" name="search-item" id="js-search-item" required>
+                     <input type="submit" value="Go!">
+                </form>
+    
+                <form id="place-form">
+                    <h1>Search any place of interest <i class="fab fa-accessible-icon"></i></h1>
+                    <label for="place-item">Or Look up a place of interest: </label>
+                    <input type="text" name="place-item" id="place-item" required>
+                     <input type="submit" value="Go!">
+                </form>
+
+            </div>
+
 
             <p id="js-error-message" class="error-message"></p>
 
